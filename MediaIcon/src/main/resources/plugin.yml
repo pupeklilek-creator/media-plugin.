@@ -1,0 +1,14 @@
+name: MediaIcon
+version: 1.0
+main: cz.media.MediaIcon
+api-version: "1.20"
+commands:
+  mediaicon:
+    description: Reload pluginu
+    permission: mediaicon.admin
+permissions:
+  mediaicon.use:
+    description: Hrac dostane kamerku pred Media
+    default: false
+  mediaicon.admin:
+    default: op

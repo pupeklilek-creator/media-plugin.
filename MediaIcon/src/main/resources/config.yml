@@ -1,0 +1,14 @@
+# Text za kamerkou
+rank-text: "Media"
+
+# Plugin si sam vyrobi resource pack a poslou ho hracum pres vlastni mini web server.
+# IP nebo domena serveru, kterou vidi hraci (stejna jako pri pripojovani)
+public-host: "123.123.123.123"
+# Port pro stazeni packu (musi byt otevreny/povoleny na hostingu!)
+http-port: 8765
+# Hraci musi pack prijmout
+force-pack: true
+# pack_format: 22 = 1.20.3-1.20.4, 32 = 1.21, 34 = 1.21.2-1.21.3
+pack-format: 22
+
+# Vlastni obrazek: dej soubor camera.png do plugins/MediaIcon/ a udelej /mediaicon
